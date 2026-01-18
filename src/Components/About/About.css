@@ -1,0 +1,142 @@
+.about {
+    text-align: center;
+    padding: 30px 20px;
+    margin: 60px auto;
+    background-color: white;
+}
+
+.about-title {
+    font-weight: 700;
+    font-size: 2.5rem;
+    
+}
+
+.about-underline {
+    display: block;
+    width: 25px;
+    height: 5px;
+    background-color: red;
+    border-radius: 2px;
+    margin: 16px auto 24px;
+}
+
+.about-underline  p {
+    font-size: 30px;
+}
+
+.about p {
+    font-size: 20px;
+    font-weight: 200;
+    max-width: 800px;
+    margin: auto;
+}
+
+.about-description {
+    margin-bottom: 100px;
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 80px 30px;
+
+
+}
+
+.about-me {
+    flex-basis: 50%;
+    text-align: left;
+}
+
+.about-me a {
+    color: red;
+    font-weight: bold;
+}
+
+.about-me h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.about-me p {
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 100;
+    
+}
+
+ .skills {
+    flex-basis: 40%;
+    text-align: left;
+    
+ }
+
+ .skills h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-pill {
+    background: #e5e5e5;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.contact-btn {
+    background-color: red;
+    font-family: "Bricolage Grotesque", sans-serif;
+    box-shadow: 6px 8px 30px rgba(0, 0, 0, 0.19);
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 25px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    a {
+    text-decoration: none;
+    color: white;
+    }
+}
+
+.contact-btn:hover {
+  background: darkred;
+}
+
+@media (max-width:650px) {
+   
+    .about-title {
+        font-size: 30px;
+    }
+
+    .about p {
+        font-size: 0.98rem;
+    }
+
+    .about-section {
+        flex-direction: column;
+        margin: 60px 1px;
+    }
+
+    .contact-btn {
+         font-size: 10px;
+         padding: 10px 20px;
+    }
+
+    .skills {
+        margin-top: 90px;
+    }
+}

@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Ropa+Sans:ital@0;1&display=swap'); 
+
+.footer {
+    background-color:black;
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    padding: 90px 0 40px 40px;
+
+    p {
+        margin-top: 90px;
+        font-size: 10px;
+    }
+}
+
+.footer p a {
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: "Ropa Sans", sans-serif;
+    
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content {
+    max-width: 400px;
+    text-align: left;
+    align-items: center;
+
+    p {
+        margin-top: 15px;
+        font-size: 14px;
+        font-weight: 200;
+        line-height: 1.5;
+    }
+}
+
+.footer-content span {
+    font-family: "Ropa Sans", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+
+.footer-social {
+    text-align: left;
+    margin-right: 70px;
+    align-items: center;
+    
+    h4 {
+        font-size: 20px;
+        font-family: "Ropa Sans", sans-serif;
+    }
+}
+
+.footer-social ul {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    margin: 15px 0;
+
+}
+
+.footer-social li {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.footer-social li a {
+    color: white;
+}
+
+.footer-social img {
+    width: 30px;
+}
+
+@media (max-width:650px) {
+    .footer {
+        display: block;
+        text-align: center;
+        width: 100%;
+
+        p {
+            text-align: center;
+        }
+    }
+
+    .footer-section {
+        flex-direction: column;
+    }
+
+    .footer-content {
+        max-width: 150px;
+
+        p {
+            font-size: 12px;
+            text-align: left;
+        }
+    }
+
+    .footer-social h4{
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    .footer-social img {
+        width: 20px;
+    }
+}
+
+@media (max-width:300px) {
+    footer{
+        text-align: left;
+        justify-content: center;
+        align-items: center;
+    }
+
+    p {
+       text-align: left;
+        justify-content: center;
+        align-items: center; 
+    }
+}

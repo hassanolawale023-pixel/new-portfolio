@@ -1,0 +1,199 @@
+.contact {
+    text-align: center;
+    padding: 30px 20px;
+    margin: 60px auto;
+    background: rgba(243, 240, 240, 0.8)
+
+}
+
+.contact-title {
+    font-weight: 700;
+    font-size: 2.5rem;
+    
+}
+
+.contact-underline {
+    display: block;
+    width: 25px;
+    height: 5px;
+    background-color: red;
+    border-radius: 2px;
+    margin: 16px auto 24px;
+}
+
+
+.contact p {
+    font-size: 20px;
+    font-weight: 200;
+    max-width: 800px;
+    margin: auto;
+}
+
+.contact-section {
+    margin: 80px auto;
+    flex-basis: 50%;
+    width: 70%;
+    background-color: white;
+    box-shadow: 6px 8px 30px rgba(0, 0, 0, 0.19);
+    display: flex;
+    border-radius: 15px;
+    padding: 40px;
+    text-align: left;
+}
+
+.contact-form label {
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.contact-form input, textarea {
+    display: block;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+    width: 300%;
+    justify-content: center;
+    align-items: center;
+    background: rgba(243, 240, 240, 0.8);
+    outline: 0;
+    border: none;
+}
+
+.contact-form textarea {
+    height: 200px;
+}
+
+.send-btn {
+    margin-top: 9px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-family: "Bricolage Grotesque", sans-serif;
+    box-shadow: 6px 8px 30px rgba(0, 0, 0, 0.19);
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 15px 35px;
+    cursor: pointer;
+    align-self: flex-end;
+}
+
+.send-btn:hover {
+  background: darkred;
+}
+
+.send-btn {
+    position: relative;
+    right: -500px ;
+    
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 24px 28px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  z-index: 1000;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  gap: 12px;
+  min-width: 280px;
+}
+
+.popup p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.popup img {
+  width: 80px;  
+  height: auto;
+}
+
+.popup button {
+  align-self: flex-end;  
+  background: red;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.popup button:hover {
+  background: darkred;
+}
+
+
+@media (max-width:900px) {
+
+    .send-btn {
+        right: -260px;
+    }
+
+    .contact-form input, textarea {
+        width: 180%;
+    }
+
+}
+
+@media (max-width:650px) {
+    .send-btn {
+        right: 0;
+        font-size: 10px;
+        padding: 10px 20px;
+        justify-content: center;
+    }
+
+    .contact-title {
+        font-size: 30px;
+    }
+
+    .contact p {
+        font-size: 0.98rem;
+    }
+
+    .contact-form input, textarea {
+        width: 100%;
+    }
+
+    .contact-section {
+        width: 90%;
+    }
+
+    .popup {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 24px 28px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    gap: 12px;
+    min-width: 280px;
+    }
+
+    .popup p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    }
+
+    .popup img {
+    width: 80px;  
+    height: auto;
+    }
+}
+
+
