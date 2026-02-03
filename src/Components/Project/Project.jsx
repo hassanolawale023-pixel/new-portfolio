@@ -46,7 +46,7 @@ const Project = () => {
 
       <div className='project-description'>
         <h3>Museum Website</h3>
-        <p>This was my first ever website i built on my own. This was an idea i thought of as a project to present at my bootcamp also built with HTML and CSS. The reason behind this project was to bring the world to people who do not have access or the luxury to travel to visit the Museums  around the world in person. It is still an abstract idea which i plan to implement in the nearest future.  </p>
+        <p>This was my first ever website. It was an idea i thought of as a project to present at my bootcamp, built with HTML and CSS. The reason behind this project was to bring the world to people who do not have access or the luxury to visit the Museums around the world in person. It is still an abstract idea which i plan to implement in the nearest future.  </p>
          <button className="project-btn"><a href="https://museum-web-ruddy.vercel.app/" target='blank'>View Project</a></button>
       </div>
 
@@ -54,7 +54,7 @@ const Project = () => {
 
       <div>
         <h3 className='project-description'>Post Manager</h3>
-        <p>This is a Javascript-based website. This was built for the purpose of knowing how API works (how do send, delete and fetch api requests). This website is not responsive</p>
+        <p>This is a Javascript-based website. This was built for the purpose of knowing how API works (how to send, delete and fetch api requests). This website is not responsive</p>
          <button className="project-btn"><a href="https://post-manager-gamma.vercel.app/" target='blank'>View Project</a></button>
       </div>
 
@@ -62,7 +62,7 @@ const Project = () => {
 
       <div className='project-description'>
         <h3>Fix</h3>
-        <p>Fix is a supposed SaaS which I created for my final project at my bootcamp. The purpose of this website was to create a platform for artisans to sell their service and also for users who are looking for genuine artisans to connect and worked together(its still a workk in progress). This website was built with HTML, CSS and Javascript and it is also responsive</p>
+        <p>Fix is a supposed SaaS which I created for my final project at my bootcamp. This website was to create a platform for artisans to sell their services and also for users who are looking for genuine artisans to connect and work together (it's still a work in progress). This website was built with HTML, CSS and Javascript and it is also responsive</p>
          <button className="project-btn"><a href="https://fix-website-olive.vercel.app/" target='blank'>View Project</a></button>
       </div>
 

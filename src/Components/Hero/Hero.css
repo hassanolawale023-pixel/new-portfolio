@@ -71,6 +71,10 @@ button img {
 }
 
 @media (max-width:650px) {
+    .hero {
+        height: 50vh;
+    }
+
     .hero .hero-text h1 {
         font-size: 35px;
         text-align: center;
@@ -91,7 +95,7 @@ button img {
         flex-direction: column;
         justify-content: center;
         padding: 2px 5px;
-        bottom: 40px;
+        bottom: 300px;
     }
 
     .side-logo img {
@@ -99,4 +103,17 @@ button img {
         margin-bottom: 8px;
 }
 
+}
+
+@media (max-width:649px) {
+    .side-logo {
+        top: 300px;
+    }
+}
+
+
+@media (max-width:460px) {
+    .side-logo {
+        top: 400px;
+    }
 }
